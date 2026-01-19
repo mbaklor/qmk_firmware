@@ -29,23 +29,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 [_NUMBERS] = LAYOUT(
   _______,  KC_F1,      KC_F2,      KC_F3,  KC_F4,  KC_F5,                          KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,
-  KC_GRV,   _______,    _______,    _______,_______,_______,                        KC_QUOT,    KC_7,    KC_8,    KC_9,    KC_PLUS,  KC_F12,
-  _______,  KC_LGUI,    KC_LALT,      KC_LCTL,KC_LSFT, _______,                        KC_UNDS, KC_4,    KC_5,    KC_6, KC_RPRN, KC_PIPE,
+  KC_GRV,   _______,    _______,    _______,_______,_______,                        KC_UNDS,    KC_7,    KC_8,    KC_9,    KC_PLUS,  KC_F12,
+  _______,  KC_LGUI,    KC_LALT,      KC_LCTL,KC_LSFT, _______,                        KC_QUOT, KC_4,    KC_5,    KC_6, KC_RPRN, KC_PIPE,
   _______,  KC_EQL,     KC_RALT,    KC_PLUS,KC_LCBR,KC_RCBR, _______,       _______,KC_LBRC, KC_1,    KC_2,    KC_3, KC_RBRC, _______,
                        _______, _______, _______, _______, _______,       _______, _______, _______, KC_0, KC_DOT
 ),
 [_SYMBOLS] = LAYOUT(
   _______, _______ , _______ , _______ , _______ , _______,                           _______,  _______  , _______,  _______ ,  _______ ,_______,
   _______,  KC_INS,  KC_PSCR,   KC_APP,  XXXXXXX, XXXXXXX,                        KC_PGUP, KC_PRVWD,   KC_LPRN, KC_RPRN,C(KC_BSPC), KC_BSPC,
-  _______, KC_LGUI,KC_LALT,  KC_LCTL,  KC_LSFT,  KC_CAPS,                       KC_PGDN,  KC_LEFT, KC_LCBR, KC_RCBR,  KC_DEL, KC_BSPC,
+  _______, KC_LGUI,KC_LALT,  KC_LCTL,  KC_LSFT,  KC_CAPS,                       KC_MINS,  KC_LEFT, KC_LCBR, KC_RCBR,  KC_DEL, KC_BSPC,
   _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V), XXXXXXX,  _______,       _______,  XXXXXXX, KC_LSTRT, KC_LBRC, KC_RBRC,   XXXXXXX, _______,
                          _______, _______, _______, _______, _______,       _______, _______, _______, _______, _______
 ),
   [_NAVIGATION] = LAYOUT(
   XXXXXXX , XXXXXXX,  XXXXXXX ,  XXXXXXX , XXXXXXX, XXXXXXX,                     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-  QK_BOOT  , XXXXXXX,KC_QWERTY,XXXXXXX,CG_TOGG,XXXXXXX,                     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-  XXXXXXX , XXXXXXX,CG_TOGG, XXXXXXX,    XXXXXXX,  XXXXXXX,                     XXXXXXX, KC_VOLD, KC_MUTE, KC_VOLU, XXXXXXX, XXXXXXX,
-  XXXXXXX , XXXXXXX, XXXXXXX, XXXXXXX,    XXXXXXX,  XXXXXXX, XXXXXXX,     XXXXXXX, XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, XXXXXXX,
+  QK_BOOT  , XXXXXXX,KC_QWERTY,XXXXXXX,CG_TOGG,XXXXXXX,                     KC_HOME, KC_PGUP, KC_PGDN, KC_END, XXXXXXX, XXXXXXX,
+  XXXXXXX , XXXXXXX,CG_TOGG, XXXXXXX,    XXXXXXX,  XXXXXXX,                     KC_LEFT, KC_UP, KC_DOWN, KC_RIGHT, XXXXXXX, XXXXXXX,
+  XXXXXXX , XXXXXXX, XXXXXXX, XXXXXXX,    XXXXXXX,  XXXXXXX, XXXXXXX,     KC_LEFT, KC_UP, KC_DOWN, KC_RIGHT, XXXXXXX, XXXXXXX, XXXXXXX,
                    _______, _______, _______, _______, _______,     _______, _______, _______, _______, _______
   )
 };
